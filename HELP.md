@@ -27,3 +27,5 @@ Core service
 Now we will go to the eurekaserver directory from the terminal and will run mvn spring-boot:run. As we configured the eureka server to port 8081, it will listen to 8081 port.Then we will go to the config server and run mvn spring-boot:run command. As we configured the config server at port 8082, it will listen to port 8082.
 
 Now we will run our core service profilemanagement. Go to the directory of profilemanagement project and execute mvn spring-boot:run command. It will listen to port 8083. Now all server is running. So, we can test now. At first, we will check the eureka server at http://localhost:8081/. It will be like the below image. Here we can see that PROFILEMANAGEMENT project is registered here.
+
+##add DB script:
